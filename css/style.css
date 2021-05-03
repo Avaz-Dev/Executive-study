@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Roboto', sans-serif;
 
 }
@@ -31,10 +31,12 @@ header ul a {
   border-radius: 8px;
   transition: 0.3s;
 }
-.apply:hover{
+
+.apply:hover {
   background-color: #717CFF;
   color: #fff;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -49,14 +51,17 @@ main {
   font-weight: 900;
   font-size: 56px;
 }
-.hero span{
+
+.hero span {
   color: #717CFF;
 }
+
 .hero p {
   font-weight: 500;
   font-size: 22px;
   color: #7D7D7D;
 }
+
 .hero-link {
   background-color: #717CFF;
   color: #fff;
@@ -67,12 +72,14 @@ main {
   padding: 12px 90px 12px 34px;
   border-radius: 11px;
 }
-.hero ul{
+
+.hero ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 100px;
 }
+
 .unversities {
   background-color: #FAFAFA;
   width: 100%;
@@ -80,7 +87,8 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.unversities h2{
+
+.unversities h2 {
   columns: #373737;
   opacity: 0.73;
   text-transform: uppercase;
@@ -88,22 +96,25 @@ main {
   font-size: 23px;
   line-height: 27px;
 }
-.unversities ul{
+
+.unversities ul {
   list-style: none;
   justify-content: space-between;
   display: flex;
   width: 1183px;
 }
-.unversities a img{
+
+.unversities a img {
   width: 225px;
   height: 67px;
 }
 
-.slider-indicator{
+.slider-indicator {
   display: flex;
-  width: 100px!important;
+  width: 100px !important;
 }
-.slider-indicator button{
+
+.slider-indicator button {
   width: 15px;
   height: 15px;
   background: rgba(124, 124, 124, 0.318837);
@@ -112,23 +123,28 @@ main {
   cursor: pointer;
 
 }
-ul li button.active-indicator{
+
+ul li button.active-indicator {
   background: #717CFF;
+  width: 20px;
+  height: 20px;
 }
 
-.services{
+.services {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.services h2{
 
-font-weight: bold;
-font-size: 37px;
-line-height: 54px;
-color: #373737;
+.services h2 {
+
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  color: #373737;
 }
-.services > p{
+
+.services>p {
   display: block;
   width: 80%;
   text-align: center;
@@ -137,14 +153,16 @@ color: #373737;
   line-height: 38px;
   color: #7D7D7D;
 }
-.services ul{
+
+.services ul {
   width: 1183px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
 }
-.services ul li{
+
+.services ul li {
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -154,27 +172,72 @@ color: #373737;
   box-sizing: border-box;
   margin-bottom: 40px;
 }
-.services ul li img{
+
+.services ul li img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
-.services ul li h3{
+
+.services ul li h3 {
   color: #37474F;
   font-weight: bold;
   font-size: 24px;
   line-height: 37px;
 }
-.services ul li p{
+
+.services ul li p {
   color: #37474FB8;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
 }
-.services ul li a{
+
+.services ul li a {
   color: #717CFF;
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
   line-height: 20px;
+}
+
+.news {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.news > p{
+  width: 80%;
+  text-align: center;
+}
+.news time {
+  font-family: Roboto;
+  color: #565656;
+  font-weight: 900;
+  font-size: 16px;
+}
+.news a {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+  font-weight: bold;
+  display: block;
+}
+.news ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 1183px;
+}
+.news li{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+  border-radius: 10px;
+  width: 345px;
+  padding-bottom: 5px;
+}
+.news span, .news a{
+  padding: 5px 25px;
 }
