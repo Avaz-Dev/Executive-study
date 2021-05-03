@@ -115,3 +115,66 @@ main {
 ul li button.active-indicator{
   background: #717CFF;
 }
+
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services h2{
+
+font-weight: bold;
+font-size: 37px;
+line-height: 54px;
+color: #373737;
+}
+.services > p{
+  display: block;
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7D7D7D;
+}
+.services ul{
+  width: 1183px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+.services ul li{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  padding: 32px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+.services ul li img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.services ul li h3{
+  color: #37474F;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+}
+.services ul li p{
+  color: #37474FB8;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.services ul li a{
+  color: #717CFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
