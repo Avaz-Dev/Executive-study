@@ -291,6 +291,7 @@ ul li button.active-indicator {
 
 .event-header {
   display: flex;
+  margin-bottom: 28px;
 }
 
 .event {
@@ -325,7 +326,7 @@ ul li button.active-indicator {
 }
 
 .event-h {
-  margin-bottom: 28px;
+  margin: 0;
   font-weight: bold;
   font-size: 24px;
   line-height: 37px;
@@ -398,11 +399,13 @@ ul li button.active-indicator {
   line-height: 38px;
   margin-bottom: 100px;
 }
+
 .scroll-bottom {
-list-style-type: none;
-display: flex;
-justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
+
 .buttom-scroll {
   background: rgba(124, 124, 124, 0.318837);
   padding: 0;
