@@ -554,3 +554,43 @@ ul li button.active-indicator {
   line-height: 31px;
   color: #37474F;
 }
+
+.apply-main {
+  display: flex;
+  justify-self: start;
+}
+
+.apply-info {
+  margin-right: 392px;
+  margin-bottom: 105px;
+  width: 498px;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 43px;
+  color: #252525;
+}
+
+.apply-box {
+padding: auto;
+margin-top: 459;
+}
+.apply-link {
+  margin-top: 82px;
+  margin-bottom: 74px;
+  background-color: #717CFF;
+  width: 262px;
+  height: 64px;
+  padding: 12px 104px 12px 34px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 11px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #717CFF;
+  height: 346px;
+}
