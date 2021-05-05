@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
   background-color: #FFFFFF;
+  margin: 0;
 }
 
 .container {
@@ -300,7 +301,6 @@ ul li button.active-indicator {
   background-color: #fff;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
-  border-radius: 15px;
   padding: 30px;
   width: 540px;
 
@@ -557,13 +557,13 @@ ul li button.active-indicator {
 
 .apply-main {
   display: flex;
-  justify-self: start;
+  align-items: center;
+
 }
 
 .apply-info {
   margin-right: 392px;
-  margin-bottom: 105px;
-  width: 498px;
+  width: 600px;
   font-weight: bold;
   font-size: 37px;
   line-height: 43px;
@@ -575,12 +575,12 @@ padding: auto;
 margin-top: 459;
 }
 .apply-link {
-  margin-top: 82px;
-  margin-bottom: 74px;
+  display: flex;
+  align-items: center;
   background-color: #717CFF;
   width: 262px;
-  height: 64px;
-  padding: 12px 104px 12px 34px;
+  height: 44px;
+  padding: 12px 34px 12px 34px;
   font-weight: 500;
   font-size: 22px;
   line-height: 40px;
@@ -588,9 +588,15 @@ margin-top: 459;
   text-decoration: none;
   border-radius: 11px;
 }
+.link-section {
+  margin-bottom: 74px;
+}
 .footer {
   display: flex;
   flex-direction: row;
   background-color: #717CFF;
   height: 346px;
+}
+.arrow-icon {
+  margin-left: 43px;
 }
