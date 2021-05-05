@@ -571,9 +571,10 @@ ul li button.active-indicator {
 }
 
 .apply-box {
-padding: auto;
-margin-top: 459;
+  padding: auto;
+  margin-top: 459;
 }
+
 .apply-link {
   display: flex;
   align-items: center;
@@ -588,15 +589,51 @@ margin-top: 459;
   text-decoration: none;
   border-radius: 11px;
 }
+
 .link-section {
   margin-bottom: 74px;
 }
-.footer {
-  display: flex;
-  flex-direction: row;
-  background-color: #717CFF;
-  height: 346px;
-}
+
 .arrow-icon {
   margin-left: 43px;
+}
+
+.footer {
+  background-color: #717CFF;
+  height: 346px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEEEE;
+
+
+
+  color: #EEEEEE;
+}
+
+.container-main {
+  align-items: center;
+  padding-top: 71px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  display: flex;
+  padding-top: 200px;
+}
+
+.social-media-link {
+  margin-right: 28px;
+}
+
+.footer-links {
+  color: #EEEEEE;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+}
+.footer-p {
+  margin-bottom: 30px;
 }
